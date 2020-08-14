@@ -100,11 +100,25 @@ li {
 .navigation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.smartphone {
+  justify-content: space-between;
+  align-items: center;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .container-site {
   margin-left: 85px;
-  margin-right: 305px;
 
   display: flex;
   align-items: center;
@@ -139,12 +153,14 @@ li {
 
 .nav-contact .link {
   color: var(--paragraf-text-color);
+  fill: var(--paragraf-text-color);
   font-family: inherit;
 }
 
 .nav-contact .link:hover,
 .nav-contact .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
   font-family: inherit;
 }
 
@@ -187,7 +203,7 @@ li {
   margin-bottom: 0;
 
   height: 70px;
-  padding: 27px 82px;
+  padding: 27px 80px;
 }
 
 .desctop-img {
