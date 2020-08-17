@@ -375,10 +375,12 @@ li {
 .hero {
   background: #c4c4c4;
   letter-spacing: 0.06em;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-items: center;
   max-width: 1600px;
   height: 600px;
-  padding-top: 200px;
   background-image: url(../images/hero.JPG);
   background-repeat: no-repeat;
   background-size: 100%;
